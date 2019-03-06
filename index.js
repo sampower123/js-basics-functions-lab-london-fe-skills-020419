@@ -14,12 +14,12 @@ function distanceTravelledInFeet(start, destination) {
   return Math.abs((start - destination)*264);
 }
 
-function calculatesFarePrice(fare) {
-  if (distanceTravelledInFeet(fare) > 400 && < 2000 {
+function calculatesFarePrice(start, destination) {
+  if (distanceTravelledInFeet(start, destination) > 400 && < 2000 {
    return (fare-400)*2;
   }
   else if () {
-  if (distanceTravelledInFeet(fare) > 2000 && < 2500 {
+  if (distanceTravelledInFeet(start, destination) > 2000 && < 2500 {
   return "$25";
     }
   }
