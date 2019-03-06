@@ -15,10 +15,11 @@ function distanceTravelledInFeet(start, destination) {
 }
 
 function calculatesFarePrice(start, destination) {
+  var fare = 
   if (distanceTravelledInFeet(start, destination) < 400) {
     return 0;
   }
-  else if (distanceTravelledInFeet(start, destination) > 400) {
+  else if (distanceTravelledInFeet(start, destination) > 400 && < 2000) {
     return (distanceTravelledInFeet(start, destination)-400)*.02;
   }
   else if (distanceTravelledInFeet(start, destination) > 2000) {
